@@ -1,0 +1,13 @@
+/.env
+/.DS_Store
+/.bundle
+/.idea/
+/.vagrant
+/.ansible
+/Movefile.yml
+/_site
+/npm-debug.log
+/package.box
+/provision/playbook.retry
+/test.json
+/vendor

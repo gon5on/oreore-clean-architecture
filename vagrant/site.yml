@@ -1,0 +1,37 @@
+---
+# provision/default.yml の設定を上書き
+
+# ホスト名
+# ENV['VAGRANT_HOSTNAME'] で上書き可能
+hostname: oreore.local
+
+# IP アドレス
+# ENV['VAGRANT_IP'] で上書き可能
+ip: 192.168.99.98
+
+# httpd ドキュメントルート
+document_root: /srv/httpd/oreore/webroot
+
+
+# MySQL を使用するか？
+use_mysql: true
+
+# PostgreSQL を使用するか？
+use_pgsql: false
+
+# 54, 55, 56, 70, 71, 72, 73, 74
+php_version: 73
+
+# CakePHP を使用するか
+use_cakephp: false
+
+
+# DB 設定
+db_name: oreore_development
+db_name_test: oreore_test
+db_user: vagrant
+db_password: vagrant
+
+
+synced_group: vagrant
+mount_options: dmode=777,fmode=777
