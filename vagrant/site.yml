@@ -33,5 +33,5 @@ db_user: vagrant
 db_password: vagrant
 
 
-synced_group: vagrant
-mount_options: dmode=777,fmode=777
+# synced_group: vagrant
+# mount_options: dmode=777,fmode=777
